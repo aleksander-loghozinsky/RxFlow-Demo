@@ -16,6 +16,7 @@
 		D75E681C2661877600571BF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75E681A2661877600571BF7 /* LaunchScreen.storyboard */; };
 		D75E68272661877700571BF7 /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75E68262661877700571BF7 /* DemoTests.swift */; };
 		D75E68322661877700571BF7 /* DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75E68312661877700571BF7 /* DemoUITests.swift */; };
+		D7934BE12666795F00A1DCF9 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7934BE02666795F00A1DCF9 /* UIColor+Extension.swift */; };
 		D7C174602662B23C00AB0401 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C1745F2662B23C00AB0401 /* HomeModel.swift */; };
 		D7C174632662B55D00AB0401 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D7C174622662B55D00AB0401 /* RxSwift */; };
 		D7C174652662B55D00AB0401 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = D7C174642662B55D00AB0401 /* RxCocoa */; };
@@ -72,6 +73,7 @@
 		D75E682D2661877700571BF7 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75E68312661877700571BF7 /* DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITests.swift; sourceTree = "<group>"; };
 		D75E68332661877700571BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7934BE02666795F00A1DCF9 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		D7C1745F2662B23C00AB0401 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		D7C1746B2662B6B300AB0401 /* InnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerViewController.swift; sourceTree = "<group>"; };
 		D7C1746F2662B6FF00AB0401 /* InnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerModel.swift; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 				D7C1748326640FC600AB0401 /* UINib+Extensions.swift */,
 				D7CED4742665E7A7006B95AE /* UICollectionViewDiffableDataSource+Extensions.swift */,
 				D7CED47A2665F0D1006B95AE /* UITableViewCell+Extensions.swift */,
+				D7934BE02666795F00A1DCF9 /* UIColor+Extension.swift */,
 			);
 			path = Additions;
 			sourceTree = "<group>";
@@ -390,6 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7934BE12666795F00A1DCF9 /* UIColor+Extension.swift in Sources */,
 				D7C174702662B6FF00AB0401 /* InnerModel.swift in Sources */,
 				D7C174742662BA2D00AB0401 /* AppFlow.swift in Sources */,
 				D7CED4752665E7A7006B95AE /* UICollectionViewDiffableDataSource+Extensions.swift in Sources */,
