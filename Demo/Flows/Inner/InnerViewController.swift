@@ -52,13 +52,13 @@ final class InnerViewController: UIViewController {
         )
         view.addSubview(label)
         UIView.animate(withDuration: 1, animations: {
-            label.frame.origin = self.randomCoordinate(in: self.view.frame.size)
+            label.frame.origin = self.randomCoordinate(in: frame.size)
         })
     }
     
-    private func randomCoordinate(in point: CGSize) -> CGPoint {
-        let x: CGFloat = CGFloat.random(in: 0 ..< point.width)
-        let y: CGFloat = CGFloat.random(in: 0 ..< point.height)
+    private func randomCoordinate(in size: CGSize) -> CGPoint {
+        let x: CGFloat = CGFloat.random(in: 0 ..< size.width)
+        let y: CGFloat = CGFloat.random(in: 0 ..< size.height)
         return CGPoint(x: x, y: y)
     }
 
